@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h2>POSTCITY</h2>
     <Scrollama
       :offset="0.6"
       @step-enter="stepEnterHandler"
