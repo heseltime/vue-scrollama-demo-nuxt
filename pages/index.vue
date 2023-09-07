@@ -11,7 +11,7 @@
         <h3>INTRO HERE</h3>
       </div>
 
-      <h3>Dramatic/Scrollytelling Intro Part: IDSA x Ars Electronica Introduce ...</h3>
+      <h3>Dramatic/Scrollytelling Intro Part</h3>
 
       <div
         class="graphic sticky top-0 bg-gray-300 border border-black mt-20 flex items-center justify-center text-8xl"
@@ -37,7 +37,7 @@
 
     </div>
 
-    <h3>Mutlidisciplinarity Part</h3>
+    <h3>Next Part</h3>
 
     <div class="flex"> 
 
@@ -58,7 +58,7 @@
           class="my-64 h-48 w-48 mx-auto bg-yellow-300 border border-black flex justify-center items-center"
           @step-enter="stepEnterHandlerSticky2"
         >
-          Discipline {{ step.id }}
+          Section {{ step.id }}
         </div>
       </Scrollama>
     </div>
@@ -75,12 +75,12 @@
           class="my-64 h-48 border border-black flex justify-center items-center"
           :class="{ 'bg-yellow-300': activeStepId === step.id }"
         >
-          Topic Group {{ step.id }}
+          Topic {{ step.id }}
         </div>
     </Scrollama>
 
-    <div class="summary">
-      <h3>SUMMARY HERE</h3>
+    <div class="outro">
+      <h3>OUTRO</h3>
     </div>
 
   </div>
@@ -132,7 +132,7 @@ export default {
   margin-bottom: 100px;
 }
 
-.summary {
+.outro {
   margin-bottom: 100px;
 }
 </style>
